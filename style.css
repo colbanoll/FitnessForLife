@@ -4,6 +4,7 @@ body {
     color: yellow;
     padding: 25px;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(pattern1.webp);
 
 
   }
@@ -47,7 +48,10 @@ body {
     width: 50%;
     padding: 10px;
   }
-  .introduction
+  .introduction{
+    top: 40px;
+    position: relative;
+  }
   .quote {
     font-family: "Brush Script MT", cursive;
     font-weight: 150;
@@ -55,7 +59,7 @@ body {
     margin: auto;
     width: 50%;
     padding: 10px;
-
+    position: relative;
   }
   a, a:hover, a:focus, a:active {
     text-decoration: none;
@@ -105,3 +109,34 @@ body {
 .Results h2{
   text-align:center;
 }
+table{
+  text-align: center;
+  margin: 20px auto;
+  position:relative;
+  top: 50px;
+}
+th {
+  border: 2px solid #8c6b48;
+  background-color:cadetblue;
+  color: wheat;
+  width: 150px;
+}
+td {
+  border: 2px solid #8c6b48;
+  width: 50px;
+  background-color:darkgoldenrod;
+  color:aliceblue;
+}
+.Results h2{
+  position: relative;
+  top: 40px;
+}
+.OurOffer{
+  position: relative;
+  top: 50px;
+
+}
+.OurOffer h2{
+  text-align:center;
+}
+
